@@ -33,7 +33,7 @@ def afegir_nom(llista, nom_complet): #Llamo a la variable que tiene el nombre al
     
     
 def llistar_noms(llista):
-    # Hem de mostrar per pantalla tots els noms que hem afegit a la llista
+    # Hem de mostrar per pantalla tots els noms que hem afegit a la llista.
     print("Nombres") #Le pongo titulo para que se vea mejor.
     for i in llista: #Hago un bucle de for para que se enseñen todos los nombres.
         print(f"| {llista} |") #Y ahora enseño todos los nombres que hay en la lista.    
